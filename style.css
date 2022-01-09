@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #111;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+}
+.btn {
+  padding: 10px 30px;
+  margin-top: 10px;
+  outline: none;
+  border: 3px solid rgb(10, 206, 206);
+  background-color: rgb(10, 206, 206);
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+/* header */
+
+.menu ul {
+  display: flex;
+  justify-content: right;
+  border-bottom: 1px solid grey;
+  min-height: 50px;
+}
+.menu ul li {
+  list-style: none;
+  padding: 10px 30px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+/* banner */
+.banner {
+  display: flex;
+  height: 100vh;
+}
+.banner-left {
+  color: rgba(255, 255, 255, 0.835);
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.banner-text p {
+  text-align: justify;
+  font-size: 18px;
+}
+.banner-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-text h1 {
+  position: relative;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: transparent;
+}
+.banner-text h1::before {
+  content: "Shariar Hossain";
+  position: absolute;
+
+  color: rgb(10, 206, 206);
+  animation: letter 3s linear 2s infinite;
+}
+@keyframes letter {
+  0% {
+  }
+  5% {
+    content: "S|";
+  }
+  10% {
+    content: "Sh|";
+  }
+  15% {
+    content: "Sha|";
+  }
+  20% {
+    content: "Shar|";
+  }
+  25% {
+    content: "Shari|";
+  }
+  30% {
+    content: "Sharia|";
+  }
+  35% {
+    content: "Shariar|";
+  }
+  40% {
+    content: "Shariar H|";
+  }
+
+  45% {
+    content: "Shariar Ho|";
+  }
+  50% {
+    content: "Shariar Hos|";
+  }
+  55% {
+    content: "Shariar Hoss|";
+  }
+  60% {
+    content: "Shariar Hossa|";
+  }
+  65% {
+    content: "Shariar Hossai|";
+  }
+  70% {
+    content: "Shariar Hossain|";
+  }
+  75% {
+  }
+  87% {
+    content: "Shariar Hossain|";
+  }
+  88% {
+    content: "Shariar Hossai|";
+  }
+  89% {
+    content: "Shariar Hossa|";
+  }
+  90% {
+    content: "Shariar Hoss|";
+  }
+  91% {
+    content: "Shariar Hos|";
+  }
+  92% {
+    content: "Shariar Ho|";
+  }
+  93% {
+    content: "Shariar H|";
+  }
+  94% {
+    content: "Sharia|";
+  }
+  96% {
+    content: "Shari|";
+  }
+  97% {
+    content: "Shar|";
+  }
+  98% {
+    content: "Sha|";
+  }
+  99% {
+    content: "Sh|";
+  }
+  100% {
+  }
+  99% {
+    content: "S|";
+  }
+  100% {
+    content: "S|";
+  }
+}
+.btn:hover {
+  background-color: transparent;
+}
